@@ -24,5 +24,11 @@ namespace lab_1_8
         {
             InitializeComponent();
         }
+
+        private void btnCalculate_Click(object sender, RoutedEventArgs e)
+        {
+            double upperBound = Convert.ToDouble(tbUpperBound.Text);
+            double lowerBound = Convert.ToDouble(tbLowerBound.Text);
+        }
     }
 }
