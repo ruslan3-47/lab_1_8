@@ -29,6 +29,7 @@ namespace lab_1_8
         {
             double upperBound = Convert.ToDouble(tbUpperBound.Text);
             double lowerBound = Convert.ToDouble(tbLowerBound.Text);
+            int n = Convert.ToInt32(tbPartCount);
         }
     }
 }
